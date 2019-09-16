@@ -1,0 +1,127 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+nav {
+  background-color: #2d7cf6;
+  position: fixed;
+  top: 0;
+  width: 100vw;
+  height: 70px;
+  color: white;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding-left: 10px;
+}
+
+nav h1 {
+  text-align: left;
+  font-size: 30px;
+  margin: 0;
+}
+
+.studentSection {
+  margin-top: 90px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.link {
+  text-decoration: none;
+  font-weight: bold;
+}
+
+h1 {
+  width: 100vw;
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+
+.studentTable {
+  width: 90vw;
+  border-collapse: collapse;
+}
+
+.studentTable td,
+.studentTable th {
+  border-top: 2px solid grey;
+  height: 50px;
+  border-top: 1px solid grey;
+  font-weight: bold;
+}
+
+.studentTable th {
+  width: 33%;
+}
+
+.flag {
+  width: 20%;
+}
+
+.topics {
+  width: 80vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.pink,
+.red,
+.blue {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+}
+
+.whiteSquare {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  border-left: 20px solid black;
+  border-top: 20px solid black;
+  border-right: 20px solid white;
+  border-bottom: 20px solid white;
+}
+
+.pink {
+  background-color: #f5c3cb;
+}
+
+.red {
+  background-color: #ec6d51;
+}
+
+.blue {
+  background-color: #b5d7e4;
+}
