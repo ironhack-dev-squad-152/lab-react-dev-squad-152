@@ -1,0 +1,18 @@
+#div_SectionTopicsToRecap {
+    display: flex;
+    justify-content: center;
+        display: flex;
+    align-items: center;
+    justify-content: center;   
+}
+
+.div_SectionTopicsToRecap {
+    align-items: center;
+    border: 1px solid black; 
+    display: flex;
+    justify-content: center;
+    margin: 5px 10px;
+    width: 100px;
+    height: 100px;
+}
+
