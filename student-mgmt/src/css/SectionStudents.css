@@ -1,0 +1,54 @@
+.section-students{
+  margin-top:10vh;
+}
+
+.table-name{
+  text-align: left;
+  border-bottom: solid gray 2px;
+  margin: 2vh 10vw;
+}
+
+.student-table{
+  align-self: center;
+  justify-content: center;
+  /* border-bottom: solid gray; */
+}
+
+.section-students-table{
+  width:80%;
+}
+table{
+  /* display: flex; */
+  justify-content: center;
+  align-items: center;  
+  /* align-self: center; */
+  border-collapse: collapse;
+  width:100%;
+  /* border-bottom: solid gray; */
+}
+
+.country-img{
+  height: 3vh;
+}
+
+.male{
+  color:blue;
+}
+.female{
+  color:red;
+}
+
+.tableStudent-container{
+  display: flex;
+  justify-content:  center;
+}
+
+tr{
+  border-bottom: solid gray 2px;
+  margin: 0 auto;
+
+}
+
+/* td{
+width: 33%%;
+} */

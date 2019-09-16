@@ -1,0 +1,22 @@
+.navBar{
+  display : flex; 
+  flex-direction: row;
+  position: fixed; 
+  top:0;
+  width: 100%;
+  justify-content: space-between;
+  background-color:#2d7bf6;
+  color:white;
+  height: 8vh;
+  align-items:center;
+}
+
+.squad-name{
+  margin-left:2vw;
+  text-decoration: none;
+  color: white;
+}
+
+svg{
+  margin-right:2vw;
+}
