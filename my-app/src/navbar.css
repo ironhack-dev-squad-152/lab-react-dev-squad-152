@@ -1,0 +1,19 @@
+.Navbar {
+  background-color: #0066ff;
+  color: white;
+  height: 60px;
+  position: fixed;
+  top: 0;
+  width: 100vw;
+  height: 70px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* padding-left: 10px; */
+}
+
+.burger {
+  height: 40px;
+  display: flex;
+  justify-content: flex-end;
+}
